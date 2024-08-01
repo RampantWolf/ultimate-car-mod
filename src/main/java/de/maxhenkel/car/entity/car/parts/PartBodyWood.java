@@ -23,7 +23,7 @@ public class PartBodyWood extends PartBodyWoodBase {
         this.numberPlateOffset = new Vector3d(0D, 7D / 16D, 14.5D / 16D);
         this.width = 1.3F;
         this.height = 1.6F;
-        this.minRotationSpeed = 2F;
+        this.minRotationSpeed = 3F;
         this.maxRotationSpeed = 5F;
         this.fuelEfficiency = () -> Main.SERVER_CONFIG.bodyWoodFuelEfficiency.get().floatValue();
         this.acceleration = () -> Main.SERVER_CONFIG.bodyWoodAcceleration.get().floatValue();
