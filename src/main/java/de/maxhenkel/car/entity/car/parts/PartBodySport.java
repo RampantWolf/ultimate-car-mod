@@ -21,7 +21,7 @@ public class PartBodySport extends PartBody {
         this.numberPlateOffset = new Vector3d(0D, 7D / 16D, 14.5D / 16D);
         this.width = 1.4F;
         this.height = 1.2F;
-        this.minRotationSpeed = 1.1F;
+        this.minRotationSpeed = 3F;
         this.maxRotationSpeed = 5F;
         this.fuelEfficiency = () -> Main.SERVER_CONFIG.bodySportFuelEfficiency.get().floatValue();
         this.acceleration = () -> Main.SERVER_CONFIG.bodySportAcceleration.get().floatValue();
