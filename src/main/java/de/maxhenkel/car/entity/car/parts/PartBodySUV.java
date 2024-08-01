@@ -21,7 +21,7 @@ public class PartBodySUV extends PartBody {
         this.numberPlateOffset = new Vector3d(0D, 6D / 16D, 16.5D / 16D);
         this.width = 1.5F;
         this.height = 1.4F;
-        this.minRotationSpeed = 1.1F;
+        this.minRotationSpeed = 3F;
         this.maxRotationSpeed = 5F;
         this.fuelEfficiency = () -> Main.SERVER_CONFIG.bodySUVFuelEfficiency.get().floatValue();
         this.acceleration = () -> Main.SERVER_CONFIG.bodySUVAcceleration.get().floatValue();
